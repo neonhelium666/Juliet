@@ -5,7 +5,8 @@
 ---
 
 ## [NIMA-030] Midareuchi 1
-
+### [NIMA-030] Midareuchi 1  
+  
 ![NIMA-030](images/NIMA-030.png)
 
 **Name:** Hina Nitori  
