@@ -10,7 +10,7 @@
 
 **Name:** Hina Nitori  
 **Tags:** Creampie, Original Collaboration, School Girls  
-**Link:** [Open Project](https://example.com/project1)
+**Link:** [Open Project](https://example.com/project1)  
 
 ---
 
@@ -21,9 +21,7 @@
 **Name:** Hina Nitori  
 **Tags:** Creampie, Cuckold, Sister 
 
-**Link:**
-
-[Open Project](https://example.com/project1)
+**Link:** [Open Project](https://example.com/project1)  
 
 ---
 
