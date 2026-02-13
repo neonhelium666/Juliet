@@ -6,7 +6,7 @@
 
 ## Project 1
 
-### Image
+### Midareuchi 1
 ![NIMA-030](images/NIMA-030.png)
 
 ### Code
