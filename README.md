@@ -9,7 +9,9 @@
 ![NIMA-030](images/NIMA-030.png)
 
 **Name:** Hina Nitori  
+
 **Tags:** Creampie, Original Collaboration, School Girls  
+
 **Link:** [Open Project](https://example.com/project1)  
 
 ---
