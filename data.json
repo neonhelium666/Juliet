@@ -1,1 +1,19 @@
+[
+  {
+    "title": "Calculator",
+    "image": "images/calculator.png",
+    "code": "code/calculator.c",
+    "link": "https://example.com/calculator",
+    "tags": "math arithmetic",
+    "category": "tools"
+  },
+  {
+    "title": "Snake Game",
+    "image": "images/snake.png",
+    "code": "code/snake.py",
+    "link": "https://example.com/snake",
+    "tags": "game fun arcade",
+    "category": "games"
+  }
+]
 
