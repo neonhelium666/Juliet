@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Gallery</title>
+<style>
+body{background:#111;color:white;font-family:Arial;margin:0}
+header{text-align:center;padding:20px}
+input{padding:10px;width:90%;max-width:400px;border-radius:8px;border:none;margin-bottom:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:20px;padding:20px}
+.item{background:#1a1a1a;border-radius:12px;overflow:hidden}
+.item img{width:100%;height:200px;object-fit:cover}
+.item p{padding:5px;margin:0}
+a{text-decoration:none;color:white;display:block}
+.item small{display:block;color:#aaa;font-size:12px;margin:0 5px 5px 5px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>My Gallery</h1>
+<input id="search" placeholder="Search by title, tag, or category..." onkeyup="searchItems()">
+</header>
+
+<div class="grid" id="gallery"></div>
+
+<script>
+let itemsData = [];
+
+fetch("data.json")
+.then(r=>r.json())
+.then(data=>{
+    // Save globally
+    itemsData = data;
+
+    // Sort by title
+    itemsData.sort((a,b)=>a.title.localeCompare(b.title));
+
+    renderGallery(itemsData);
+});
+
+function renderGallery(items){
+    const gallery = document.getElementById("gallery");
+    gallery.innerHTML = "";
+
+    items.forEach(item=>{
+        gallery.innerHTML += `
+        <div class="item" data-title="${item.title}" data-tags="${item.tags}" data-category="${item.category}">
+            <a href="${item.link}" target="_blank">
+                <img src="${item.image}">
+                <p>${item.title}</p>
+                <small>Category: ${item.category}</small>
+                <small>Tags: ${item.tags}</small>
+                <small>Code: ${item.code}</small>
+            </a>
+        </div>
+        `;
+    });
+}
+
+function searchItems(){
+    const q = document.getElementById("search").value.toLowerCase();
+    const filtered = itemsData.filter(item=>{
+        return item.title.toLowerCase().includes(q)
+            || item.tags.toLowerCase().includes(q)
+            || item.category.toLowerCase().includes(q);
+    });
+    renderGallery(filtered);
+}
+</script>
+
+</body>
+</html>
 
