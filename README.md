@@ -9,8 +9,8 @@
 ### [NIMA-030] Midareuchi 1
 ![NIMA-030](images/NIMA-030.png)
 
-### Code
-(images/PPPE-188.png)
+### 
+![NIMA-030](images/PPPE-188.png)
 
 ### Link
 [Open Project](https://example.com/project1)
