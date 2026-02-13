@@ -6,11 +6,11 @@
 
 ## Project 1
 
-### Midareuchi 1
+### [NIMA-030] Midareuchi 1
 ![NIMA-030](images/NIMA-030.png)
 
 ### Code
-[View Code](code/project1.c)
+(images/PPPE-188.png)
 
 ### Link
 [Open Project](https://example.com/project1)
