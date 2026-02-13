@@ -7,7 +7,7 @@
 ## Project 1
 
 ### Image
-![Project 1 Image](NIMA-30.png)
+![NIMA-030](NIMA-030.png)
 
 ### Code
 [View Code](code/project1.c)
